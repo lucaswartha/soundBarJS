@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 223, 223);
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.botao-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 800px;
+    max-height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.botao {
+    max-width: 10vw;
+    max-height: 11vh;
+}
+
+p {
+    margin-top: 0;
+}
+
+.botao-container img:hover {
+    cursor: pointer;
+}
